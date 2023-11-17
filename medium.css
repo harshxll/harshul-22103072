@@ -1,0 +1,140 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+    font-family: "gilroy";
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    background: #A8EAF8D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page>.login{
+    height:65%;
+    width: 70%;
+    /* max-width: 90rem; */
+    background-color: #fff;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    background-image: url("Rectangle 2.png");
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+    /* background-color: aqua; */
+}
+#rec0{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#rec1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.right{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    position: relative;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: black; */
+}
+.text{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    width: 100%;
+}
+.input{
+    background: #A8EAF8D1;
+    height: 60%;
+    width: 80%;
+    margin-top: 2rem;
+    position:relative;
+    bottom: 2px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+.input>.username>input{
+    background-color: transparent;
+    outline: none;
+    font-family: "gilroy";
+    border :none;
+    margin: 2px;
+    border-bottom: 1rem;
+    font-weight: 600;
+}
+.right>h1{
+    font-size: 3rem;
+    text-align: left;
+    width: 100%;
+    padding: 2rem;
+}
+.right>h3{
+    text-align: center;
+    letter-spacing: 0.4rem;
+    font-size:1.5rem ;
+}
+#border1,#border2{
+    width: 35%;
+    height: 1px;
+    background-color: #000;
+}
+.input>.pass>input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-family: "gilroy";
+    border-bottom: 1rem;
+    margin: 2px;
+    font-weight: 600;
+}
+.username,.pass{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.right>button{
+    width: 70%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-family: 700;
+    margin-top: 3rem;
+    box-shadow: #000;
+    cursor: pointer;
+}
+.input>button{
+    height: 3rem;
+    width: 10rem;
+    background: #3852D7E3;
+    border-radius: 2rem;
+    border-width: 0px;
+    color: #fff;
+}

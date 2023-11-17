@@ -1,0 +1,70 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+    font-family: "gilroy";
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: salmon;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    background: linear-gradient(90deg, #A99DEC 0%, #E19DEC 100%);
+
+    
+}
+.lnav{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 30vw;
+    /* background-color: blue; */
+    justify-content: space-between;
+}
+img{
+    width: 10rem;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.page1{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+#content{
+    width: 80%;
+    height: 60%;
+    border-radius: 2rem;
+    background: #E19DECAD;
+    display: flex;
+}
+#con{
+    position: absolute;
+    left: 50%;
+    height: 30rem;
+    width: 30rem;
+    bottom: 25%;
+}
+
+#star1{
+    align-self: flex-end;
+}
+#star2{
+    justify-self: end;
+}
